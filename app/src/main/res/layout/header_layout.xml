@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@color/colorPrimary"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp">
+    <View
+        android:id="@+id/viewSupporter"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="@id/imageProfileHeader"
+        app:layout_constraintEnd_toEndOf="@id/imageProfileHeader"
+        app:layout_constraintStart_toStartOf="@id/imageProfileHeader"
+        app:layout_constraintTop_toTopOf="@id/imageProfileHeader" />
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageProfileHeader"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        app:border_color="@color/colorWhite"
+        app:border_width="3dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_account_circle_black_36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_oval="true" />
+
+    <TextView
+        android:id="@+id/headerViewUsername"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/username"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/viewSupporter"
+        app:layout_constraintStart_toEndOf="@id/imageProfileHeader" />
+
+    <TextView
+        android:id="@+id/headerViewEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/email_gmail_com"
+        android:textColor="@color/colorWhite"
+        android:textSize="11sp"
+        app:layout_constraintStart_toEndOf="@id/imageProfileHeader"
+        app:layout_constraintTop_toBottomOf="@id/viewSupporter" />
+</androidx.constraintlayout.widget.ConstraintLayout>

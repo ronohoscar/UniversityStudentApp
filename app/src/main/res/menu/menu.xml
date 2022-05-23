@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"
+            />
+        <item
+            android:id="@+id/portal"
+            android:title="Portal"
+            android:icon="@drawable/ic_portal"
+            />
+        <item
+            android:id="@+id/departments"
+            android:title="Departments"
+            android:icon="@drawable/ic_departments"
+            />
+        <item
+            android:id="@+id/notifications"
+            android:title="Notifications"
+            android:icon="@drawable/ic_notifications"
+            />
+        <item
+            android:id="@+id/ads"
+            android:title="@string/adverts"
+            android:icon="@drawable/ic_ads"
+            />
+
+        <item
+            android:id="@+id/chatroom"
+            android:title="Chatroom"
+            android:icon="@drawable/ic_chatroom"
+            />
+
+        <item
+            android:id="@+id/report_corruption"
+            android:icon="@drawable/ic_report_corruption"
+            android:title="@string/report_corruption" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="@string/my_profile" />
+
+
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/about">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/about_app"
+                    android:icon="@drawable/ic_about_app"
+                    android:title="@string/about_app" />
+                <item
+                    android:id="@+id/rate_app"
+                    android:icon="@drawable/ic_rate_app"
+                    android:title="@string/rate_app" />
+
+
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

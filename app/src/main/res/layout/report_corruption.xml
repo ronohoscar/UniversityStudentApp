@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/report_corruption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="@string/report_corruption_here"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/weListen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="@string/we_listen_and_investigate"
+            android:textColor="@color/colorWhite"
+            android:textStyle="italic"
+            android:textSize="19sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/EditTextSubject"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btncorruption"
+            android:gravity="center"
+            android:hint="@string/subject"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColorHint="@color/colorPrimaryText" />
+
+        <EditText
+            android:id="@+id/EditTextMessage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btncorruption"
+            android:gravity="left"
+            android:padding="10dp"
+            android:hint="@string/report_here"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:maxLines="22"
+            android:minLines="5"
+            android:textColorHint="@color/colorPrimaryText" />
+
+        <Button
+            android:id="@+id/btnReport"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btnround"
+            android:text="@string/report"
+            android:textAllCaps="false"
+            android:textColor="#FFFBF8"
+            android:fontFamily="@font/baloo"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="30dp"
+            android:background="#3fff" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

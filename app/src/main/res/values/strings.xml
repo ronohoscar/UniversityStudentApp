@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">TTU STUDENTS APP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="adverts">Adverts</string>
+    <string name="notifications">Notifications</string>
+    <string name="chatroom">ChatRoom</string>
+    <string name="portal">Portal</string>
+    <string name="report_corruption">Report Corruption</string>
+    <string name="informatics_computing">Informatics and Computing</string>
+    <string name="departments">Departments</string>
+    <string name="mathematics_informatics">Mathematics and Informatics</string>
+    <string name="mining">Mining</string>
+    <string name="business">Business</string>
+    <string name="my_profile">My Profile</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="about_app">About App</string>
+    <string name="rate_app">Rate App</string>
+    <string name="about">About</string>
+    <string name="ronoh_oscar">Ronoh Oscar</string>
+    <string name="student">Student</string>
+    <string name="report_corruption_here">Report Corruption Here</string>
+    <string name="we_listen_and_investigate">We Listen and Investigate</string>
+    <string name="subject">Subject..</string>
+    <string name="report_here">Report Here.....</string>
+    <string name="report">Report</string>
+    <string name="registration_number">Registration Number</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="taita_taveta_university">Taita Taveta Uni</string>
+    <string name="welcome_to_ttu">Welcome to TTU</string>
+    <string name="home_of_ideas">Home of Ideas</string>
+
+    <string name="enter_password">Enter Password</string>
+    <string name="register_here">Register Here</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="enter_username"> Enter Username</string>
+    <string name="enter_your_email"> Enter your Email</string>
+
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">REGISTER</string>
+    <string name="login_here">Login Here</string>
+    <string name="todo">TODO</string>
+    <string name="username">Username</string>
+    <string name="email_gmail_com">Email@gmail.com</string>
+    <string name="enter_your_age"> Enter your Age</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading">Loading...</string>
+    <string name="mi">MI</string>
+    <string name="ic">IC</string>
+    <string name="mmpe">MMPE</string>
+    <string name="bse">BSE</string>
+    <string name="education">Education</string>
+    <string name="agriculture">Agriculture</string>
+    <string name="enter_registration_number">Enter Reg No</string>
+    <string name="enter_course">Enter Course</string>
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+
+    <string name="mission_statement" translatable="false">The mission of the university for research, education, teaching, and community services in management of mineral and naturel resources.</string>
+    <string name="vission_statement" translatable="false">The vission is to be an educated and transformed society in sustainability of natural resources.</string>
+
+
+</resources>

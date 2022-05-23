@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:id="@+id/imageViewDisplay"
+      android:layout_width="208dp"
+      android:layout_height="208dp"
+      android:layout_marginTop="8dp"
+      android:src="@drawable/ic_account_circle_black_36dp"
+      app:border_color="@color/colorPrimary"
+      app:border_width="3dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.47"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.100000024" />
+
+  <Button
+      android:id="@+id/buttonimageupload"
+      android:layout_width="34dp"
+      android:layout_height="35dp"
+      android:background="@drawable/ic_profile_edit_24"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toEndOf="@+id/imageViewDisplay"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.349" />
+
+  <TextView
+      android:id="@+id/textView5"
+      android:layout_width="100dp"
+      android:layout_height="30dp"
+      android:fontFamily="@font/baloo"
+      android:gravity="center"
+      android:text="USER NAME"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageViewDisplay"
+      app:layout_constraintVertical_bias="0.060000002" />
+
+  <TextView
+      android:id="@+id/textView7"
+      android:layout_width="80dp"
+      android:layout_height="30dp"
+      android:fontFamily="@font/baloo"
+      android:gravity="center"
+      android:text="EMAIL"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toTopOf="@+id/textView8"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView6"
+      app:layout_constraintVertical_bias="0.085" />
+
+  <TextView
+      android:id="@+id/textView9"
+      android:layout_width="80dp"
+      android:layout_height="30dp"
+      android:fontFamily="@font/baloo"
+      android:gravity="center"
+      android:text="REG NO"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toTopOf="@+id/textView10"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView8"
+      app:layout_constraintVertical_bias="0.083" />
+
+  <TextView
+      android:id="@+id/textView11"
+      android:layout_width="80dp"
+      android:layout_height="30dp"
+      android:fontFamily="@font/baloo"
+      android:gravity="center"
+      android:text="COURSE"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toTopOf="@+id/textView12"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView10"
+      app:layout_constraintVertical_bias="0.195" />
+
+  <TextView
+      android:id="@+id/textView6"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:fontFamily="serif"
+      android:gravity="center"
+      android:hint="User Name"
+      android:textSize="15sp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toTopOf="@+id/textView7"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView5"
+      app:layout_constraintVertical_bias="0.04000002" />
+
+  <TextView
+      android:id="@+id/textView8"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:fontFamily="monospace"
+      android:gravity="center"
+      android:hint="Email Address"
+      android:textSize="15sp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toTopOf="@+id/textView9"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+  <TextView
+      android:id="@+id/textView10"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:fontFamily="monospace"
+      android:gravity="center"
+      android:hint="Registration No"
+      android:textSize="15sp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toTopOf="@+id/textView11"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView9"
+      app:layout_constraintVertical_bias="0.089" />
+
+  <TextView
+      android:id="@+id/textView12"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:fontFamily="monospace"
+      android:gravity="center"
+      android:hint="Course"
+      android:textSize="15sp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

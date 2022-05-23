@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "282202939430",
+    "firebase_url": "https://ttu-app-fc0df.firebaseio.com",
+    "project_id": "ttu-app-fc0df",
+    "storage_bucket": "ttu-app-fc0df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282202939430:android:ade852cd08dfc21b2086e7",
+        "android_client_info": {
+          "package_name": "com.example.ttuapp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282202939430-0fumrbclvcoe0puir1gbnuhhcjsrg38f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ttuapp1",
+            "certificate_hash": "9670e9c619a8851a06807ed51e9da12842e2ef2a"
+          }
+        },
+        {
+          "client_id": "282202939430-vc4iriominncb1111cgvdo58724u56q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfdSWkkhiqowsM3Was6_8fjN0wX5ZeR4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282202939430-vc4iriominncb1111cgvdo58724u56q0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

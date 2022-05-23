@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "909346187406",
+    "firebase_url": "https://ttuappproject.firebaseio.com",
+    "project_id": "ttuappproject",
+    "storage_bucket": "ttuappproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909346187406:android:b9c305d3fd370e7a8cc1df",
+        "android_client_info": {
+          "package_name": "com.example.ttuapp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909346187406-ah6b6db3e82h7doqpgqqvdleeddknq6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTyBZSpY_wbDheqBnuDYxQ6WAGwopBYfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909346187406-ah6b6db3e82h7doqpgqqvdleeddknq6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
